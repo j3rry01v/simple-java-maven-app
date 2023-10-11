@@ -34,15 +34,5 @@ pipeline{
                     }
                 }
             }
-              stage("Completed")
-            {
-                 steps
-                {
-                    dir("simple-java-maven-app")
-                    {
-                        echo "Completed"
-                    }
-                }
-            }
         }
         }
